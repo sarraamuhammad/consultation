@@ -2,16 +2,6 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-// const seatSchema = new Schema({
-//   row: {
-//     type: Number,
-//     required: true,
-//   },
-//   col: {
-//     type: Number,
-//     required: true,
-//   },
-// });
 const matchSchema = new Schema({
   homeTeam: {
     type: String,
